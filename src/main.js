@@ -9,7 +9,8 @@ const main = () => {
   // instance Threeapp class
   const threeapp = new Threeapp(canvas)
 
-  threeapp.render()
+  // start animation loop
+  threeapp.start()
 }
 
 main()
